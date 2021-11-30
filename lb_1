@@ -183,13 +183,6 @@ int main()
         }
     }
    
-    //вывод двумерного массива с частотой биграммам в оригинальном тексте
-    /*for (int i = 0; i < b.length() ; i++){
-        for (int j = 0; j < b.length(); j++){
-            cout <<bigramm[i][j] << "__";
-        }
-        cout << endl;
-    }*/
 
     //подсчёт количества биграм в шифрованном тексте
     amount = 0;
@@ -216,16 +209,6 @@ int main()
         }
     }
     
-    
-    //вывод двумерного массива с частотой биграммам в шифрованом тексте
-    /*cout << endl << "частота в шифрованном тексте" << endl;
-    for (int i = 0; i < b.length(); i++) {
-        
-        for (int j = 0; j < b.length(); j++) {
-            cout << encbigramm[i][j] << "__";
-        }
-        cout << endl;
-    }*/
 
     
     for (int k = 0; k < textn.length()-1; k= k+2){
